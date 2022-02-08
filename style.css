@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #EEE;
+    padding: 20px;
+}
+.pic{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50% ;
+    float: left;
+    
+}
+.bio{
+    float: left;
+    width: 300px;
+    padding: 15px;
+}
+.link{
+    color: blue;
+}
+.link:hover{
+    font-weight: bold;
+}
+.div-clear{
+    clear:both;
+}
+
+hr{
+    border: 3px black solid;
+    width: 100%;
+    border-bottom: none;
+}
+
+/*....profile-section...*/
+#profile-section{
+
+}
+.content{
+
+}
+.left-div{
+    width: 15%;
+    float: left;
+}
+.right-div{
+   width: 75%;
+   float: left;
+
+}
+
+.commonhr{
+    border: 1px black solid;
+    width: 100%;
+    border-bottom: none;
+    margin: 2px auto;
+}
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding:10px;
+
+}
+
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
