@@ -18,13 +18,18 @@ body{
     height: 120px;
     border: 3px solid white;
     border-radius: 50% ;
-    float: left;
+   
     
 }
 .bio{
-    float: left;
+   
     width: 300px;
     padding: 15px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .link{
     color: blue;
@@ -32,9 +37,7 @@ body{
 .link:hover{
     font-weight: bold;
 }
-.div-clear{
-    clear:both;
-}
+
 
 hr{
     border: 3px black solid;
@@ -42,20 +45,19 @@ hr{
     border-bottom: none;
 }
 
-/*....profile-section...*/
-#profile-section{
 
-}
 .content{
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .left-div{
     width: 15%;
-    float: left;
+  
 }
 .right-div{
    width: 75%;
-   float: left;
+   
 
 }
 
